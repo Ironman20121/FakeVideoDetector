@@ -1,0 +1,36 @@
+name: tf
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - tensorflow-gpu=2.7.0
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - nbconvert
+  - jupyter_contrib_nbextensions
+  - nodejs
+  - cudatoolkit=11.2
+  - cudnn=8.3.*
+  - h5py
+  - pillow
+  - scipy
+  - pip
+  - pip:
+    - opencv-python
+    - moviepy
+    - adversarial-robustness-toolbox
+    - imutils
+    - imageio
+    - ollama
+    - tensorflow-docs
+    - strealit
+    - google-generativeai
+
+    
+  
